@@ -1,0 +1,7 @@
+1. Print statement :
+        
+     -->   print statement is used to display the whatever thats inside the print() statement on the screen .
+
+     -->  syntax :
+                print("Hello World")
+                
