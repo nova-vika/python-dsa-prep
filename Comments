@@ -1,0 +1,10 @@
+2.  Comments:
+
+       --> Comments are used to understand the code easily . 
+
+       --> In python " # " (hash symbol) is used as comments .
+
+       --> Python doesn't have multiline comments .
+
+       --> Howeve we can use multiline strings to act as multiline comments .
+       
