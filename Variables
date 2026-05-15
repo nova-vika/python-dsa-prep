@@ -1,0 +1,50 @@
+3. (1) Variables :
+
+      --> It is used to store a value
+
+      --> syntax:
+
+             variable = value 
+
+             eg: name = "Vikashini"  (here name is the variable and vikashini is the value.)
+
+
+    --> Note: Python is a type-inferred language, so you don't have to explicitly define the variable type.
+
+
+(2)  Variables Can Change:
+
+age = 18
+print(age)
+
+age = 19
+print(age)
+
+Output:
+18
+19
+
+--> Because variables are changeable.
+
+
+
+(3) Rules for Naming Python Variables:
+             
+          -->   Cannot start with number
+          -->   No spaces
+          -->   Use _ instead of spaces
+          -->   Cannot use keywords like if, for, while
+
+
+(4)  CONSTANTS 
+
+         --> Constants are values that should NOT change.
+
+         --> Python doesn’t have real constants, but programmers write them in CAPITAL letters.
+
+         -->  Example:
+
+               PI = 3.14
+
+        --> We treat it like fixed data.
+
