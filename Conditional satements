@@ -1,0 +1,83 @@
+--> CONDITIONAL STATEMENTS 
+
+IF • ELIF • ELSE in Python
+These are called:
+      --> Conditional Statements
+
+      --> Used when computer needs to make decisions.
+
+      --> Example:
+             if marks > 35 → Pass
+             else → Fail
+
+1. IF STATEMENT :
+
+--> Runs code only if condition is True.
+
+--> Syntax
+if condition:
+    code
+
+--> Example
+age = 18
+if age >= 18:
+    print("Eligible to vote")
+
+--> Output:
+Eligible to vote
+
+--> Because:
+18 >= 18
+is True.
+
+
+2. ELSE STATEMENT :
+
+--> Runs when condition is False.
+
+--> Example
+age = 16
+if age >= 18:
+    print("Eligible")
+else:
+    print("Not Eligible")
+
+--> Output:
+Not Eligible
+
+
+3. ELIF STATEMENT :
+
+--> elif means:
+         --> else if
+
+--> Used for multiple conditions.
+
+--> Example
+marks = 75
+if marks >= 90:
+    print("Grade A")
+
+elif marks >= 75:
+    print("Grade B")
+
+else:
+    print("Grade C")
+
+--> Output:
+      Grade B
+
+
+                         FLOW UNDERSTANDING :
+
+                            if condition True
+                                  ↓
+                             run if block
+
+                              otherwise
+                                 ↓
+                              check elif
+ 
+                              otherwise
+                                 ↓
+                              run else
