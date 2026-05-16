@@ -1,0 +1,317 @@
+LOOPS :   -- for loop -- while loop -- break,continue and pass statements 
+
+--> FOR LOOP 
+
+    -- A for loop is used to repeat something multiple times.
+
+-->  Instead of writing:
+
+print("Hello")
+print("Hello")
+print("Hello")
+
+--> we use loop 
+
+for i in range(3):
+    print("Hello")
+
+--> Output:
+
+Hello
+Hello
+Hello
+
+--> BASIC SYNTAX: 
+
+for variable in sequence:
+    code
+
+--> MOST IMPORTANT → range() 
+
+-- range() generates numbers.
+
+1. range(stop)
+for i in range(5):
+    print(i)
+
+--> Output:
+
+0
+1
+2
+3
+4
+
+Starts from 0 by default.
+
+2. range(start, stop)
+for i in range(1, 6):
+    print(i)
+
+--> Output:
+
+1
+2
+3
+4
+5
+
+3. range(start, stop, step)
+for i in range(1, 10, 2):
+    print(i)
+
+--> Output:
+
+1
+3
+5
+7
+9
+
+Step = how much to jump.
+
+
+
+
+--> WHILE LOOP  :
+
+       -- A while loop repeats code:
+       -- as long as condition is True.
+
+--> BASIC SYNTAX
+
+while condition:
+    code
+
+--> SIMPLE EXAMPLE 😄
+i = 1
+while i <= 5:
+    print(i)
+    i = i + 1
+
+--> Output:
+
+1
+2
+3
+4
+5
+
+--> HOW IT WORKS : 
+
+-- Step 1
+i = 1
+
+-- Step 2
+-- Checks:
+i <= 5
+True 
+-- Prints:
+1
+
+-- Step 3
+i = i + 1
+Now:
+i = 2
+
+-- Again loop repeats.
+
+----> VERY IMPORTANT 
+i = i + 1
+
+--> is SUPER important.
+---> Without it:
+       -- infinite loop happens.
+
+
+    --> INFINITE LOOP 
+i = 1
+while i <= 5:
+    print(i)
+
+-- This runs forever 
+-- Because i never changes.
+
+
+
+------> DIFFERENCE BETWEEN FOR LOOP & WHILE LOOP: 
+
+           FOR LOOP	                                                    WHILE LOOP
+1. Used when number of repetitions is known	                  Used when repetitions depend on condition
+2. Simpler syntax	                                              More flexible
+3. Uses range() often                                         	  Uses condition directly
+4. Initialization and increment handled easily	                  Must manually update variable
+5. Less chance of infinite loop	                              Higher chance of infinite loop
+6. Best for counting	                                          Best for condition 
+
+
+
+
+---> BREAK AND CONTINUE : 
+
+-- These are used inside loops (for and while).
+-- They help control loop execution.
+
+1. BREAK STATEMENT 
+        --> break stops the loop immediately.
+
+---> FOR LOOP EXAMPLE
+for i in range(1, 6):
+    if i == 4:
+        break
+    print(i)
+
+--> HOW IT WORKS :
+
+Loop values:
+
+1 → 2 → 3 → 4
+
+When:
+
+i == 4
+
+break runs.
+
+Loop stops immediately 
+
+-->OUTPUT
+1
+2
+3
+
+----> WHILE LOOP EXAMPLE
+i = 1
+while i <= 5:
+    if i == 4:
+        break
+    print(i)
+    i = i + 1
+
+-->Output:
+1
+2
+3
+
+
+
+2. CONTINUE STATEMENT :
+        -- continue skips current iteration.
+        -- Loop DOES NOT stop.
+        -- It moves to next iteration.
+
+---> FOR LOOP EXAMPLE
+for i in range(1, 6):
+    if i == 3:
+        continue
+    print(i)
+
+--> HOW IT WORKS:
+
+Values:
+1 → print
+2 → print
+3 → skip
+4 → print
+5 → print
+
+--> OUTPUT
+1
+2
+4
+5
+
+--> 3 is skipped.
+
+
+---> VERY IMPORTANT:
+        -- CONTINUE IN WHILE LOOP
+        -- Always update variable before continue.
+
+--->  Wrong:
+i = 1
+while i <= 5:
+    if i == 3:
+        continue
+    print(i)
+    i = i + 1
+
+-->Output: 
+Infinite loop 
+
+Because:
+
+i = 3
+
+forever.
+
+----> CORRECT WAY ✅
+i = 0
+while i < 5:
+    i = i + 1
+    if i == 3:
+        continue
+    print(i)
+
+-->Output:
+
+1
+2
+4
+5
+
+     ---> IMPORTANT DIFFERENCE: 
+
+      BREAK	                             CONTINUE
+1. Stops loop completely           	Skips one iteration
+2. Loop ends	                    Loop continues
+3. Used to exit loop	            Used to skip value
+
+
+--> PASS STATEMENT :
+--> pass means  ---> “do nothing”
+--> It is used as a placeholder.
+
+--> WHY WE USE PASS? 
+Sometimes Python expects code block,
+but we don’t want to write code yet.
+
+--> Without code:
+      error comes.
+
+--> So we use pass
+
+--> SIMPLE EXAMPLE:
+
+-- Wrong:
+
+if 5 > 2:
+
+Error 
+Because no code inside if.
+
+-- Correct 
+if 5 > 2:
+    pass
+
+No error 
+
+=--> EXAMPLE WITH LOOP :
+for i in range(5):
+    if i == 3:
+        pass
+    print(i)
+
+Output:
+
+0
+1
+2
+3
+4
+
+pass does nothing.
+Loop continues normally.
+
+
+
