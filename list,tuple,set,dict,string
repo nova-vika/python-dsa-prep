@@ -1,0 +1,248 @@
+
+
+1. PYTHON NUMBERS AND MATHEMATICS
+-----------------------------------------
+
+Topics:
+- int
+- float
+- complex
+- arithmetic operators
+- modulus
+- exponent
+- floor division
+- type conversion
+- math functions
+
+Learn:
+- calculations
+- operators
+- mathematical logic
+
+Examples:
++  -  *  /  //  %  **
+
+
+=========================================
+2. PYTHON LIST
+=========================================
+
+Definition:
+- Ordered collection
+- Mutable (changeable)
+- Allows duplicates
+
+Uses:
+- storing multiple values
+- DSA
+- arrays
+- stacks
+- queues
+
+Important Topics:
+- indexing
+- slicing
+- append()
+- insert()
+- remove()
+- pop()
+- sort()
+- reverse()
+- loops
+- list comprehension
+
+Syntax:
+[]
+
+Example:
+[1, 2, 3]
+
+
+=========================================
+3. PYTHON TUPLE
+=========================================
+
+Definition:
+- Ordered collection
+- Immutable (cannot change)
+- Allows duplicates
+
+Uses:
+- fixed data
+- coordinates
+- database records
+
+Important Topics:
+- indexing
+- slicing
+- count()
+- index()
+- tuple unpacking
+
+Syntax:
+()
+
+Example:
+(1, 2, 3)
+
+
+=========================================
+4. PYTHON STRING
+=========================================
+
+Definition:
+- Collection of characters
+
+Uses:
+- text processing
+- user input
+- validation
+
+Important Topics:
+- indexing
+- slicing
+- upper()
+- lower()
+- replace()
+- split()
+- join()
+- find()
+- strip()
+
+Syntax:
+" "
+' '
+
+Example:
+"hello"
+
+
+=========================================
+5. PYTHON SET
+=========================================
+
+Definition:
+- Unordered collection
+- No duplicates allowed
+
+Uses:
+- unique values
+- fast searching
+- mathematical operations
+
+Important Topics:
+- add()
+- remove()
+- union()
+- intersection()
+- difference()
+
+Syntax:
+{}
+
+Example:
+{1, 2, 3}
+
+
+=========================================
+6. PYTHON DICTIONARY
+=========================================
+
+Definition:
+- Stores data in key-value pairs
+
+Uses:
+- databases
+- APIs
+- mappings
+- JSON data
+
+Important Topics:
+- keys()
+- values()
+- items()
+- get()
+- update()
+- pop()
+
+Syntax:
+{}
+
+Example:
+{
+  "name": "Vikashini",
+  "age": 19
+}
+
+
+=========================================
+IMPORTANT DIFFERENCES
+=========================================
+
+LIST
+- []
+- mutable
+- ordered
+- duplicates allowed
+
+TUPLE
+- ()
+- immutable
+- ordered
+- duplicates allowed
+
+SET
+- {}
+- mutable
+- unordered
+- duplicates NOT allowed
+
+DICTIONARY
+- {}
+- key-value pairs
+- ordered
+- keys unique
+
+
+=========================================
+BEST LEARNING ORDER
+=========================================
+
+1. Numbers and Mathematics
+2. List
+3. Tuple
+4. String
+5. Set
+6. Dictionary
+7. Functions
+8. Loops
+9. File Handling
+10. OOP
+
+
+=========================================
+MOST IMPORTANT FOR DSA
+=========================================
+
+1. Lists
+2. Strings
+3. Dictionaries
+4. Sets
+
+These are heavily used in:
+- LeetCode
+- Interviews
+- Competitive Programming
+- Google STEP preparation
+
+
+=========================================
+SUMMARY
+=========================================
+
+Numbers      -> calculations
+List         -> multiple values
+Tuple        -> fixed values
+String       -> text
+Set          -> unique values
+Dictionary   -> key-value data
